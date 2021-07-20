@@ -1,4 +1,4 @@
-# Userstyles
+# Userstyles.css
 
 I'll put all the userstyles i've created and maintain for various websites/platforms.
 Some styles may include design creations I made myself so please do not alter the images. Other than that, feel free to use my userstyles as a base for yours!
