@@ -17,7 +17,7 @@ MyDramaList is a website for Asian Medias. Keep track of the shows and movies yo
 
 - Darker theme
 - Larger container
-- Animations to dynamise the website
+- Animations to dynamize the website
 - New fonts + custom hashtags view
 - Articles list: images same size + filters
 
