@@ -3,12 +3,12 @@
 I'll put all the userstyles i've created and maintain for various websites/platforms.
 Some styles may include design creations I made myself so please do not alter the images. Other than that, feel free to use my userstyles as a base for yours!
 
-## MDL-themes
-I'll add all my MyDramaList Themes here.
 You must install [Stylus](https://github.com/openstyles/stylus) before trying to install these or it will not work.
 
 Styles can be updated automatically via the add-on.
 
+## MDL-themes
+MyDramaList is a website for Asian Medias. Keep track of the shows and movies you've watched and find recommendations!
 
 ### 01. MDL Darker Version
 <p align="center">
