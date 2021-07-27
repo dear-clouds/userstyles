@@ -7,7 +7,16 @@ You must install [Stylus](https://github.com/openstyles/stylus) before trying to
 
 Styles can be updated automatically via the add-on.
 
-## MDL-themes
+
+## Plex Themes
+MyDramaList is a website for Asian Medias. Keep track of the shows and movies you've watched and find recommendations!
+
+### 01. Modern
+<p align="center">
+  <img src="https://dl.dropbox.com/s/2iyj1epxev556m4/Plex-Theme-Web%20-%20Copy.png" width="500"/>
+</p>
+
+## MyDramaList
 MyDramaList is a website for Asian Medias. Keep track of the shows and movies you've watched and find recommendations!
 
 ### 01. MDL Darker Version
