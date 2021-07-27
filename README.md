@@ -9,7 +9,7 @@ Styles can be updated automatically via the add-on.
 
 
 ## Plex Themes
-MyDramaList is a website for Asian Medias. Keep track of the shows and movies you've watched and find recommendations!
+Plex is a global streaming media service and a client–server media player platform, made by Plex, Inc. The Plex Media Server organizes video, audio, and photos from a user's collections and from online services, and streams it to the players.
 
 ### 01. Modern
 <p align="center">
