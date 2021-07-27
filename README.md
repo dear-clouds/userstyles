@@ -16,6 +16,8 @@ Plex is a global streaming media service and a client–server media player plat
   <img src="https://dl.dropbox.com/s/2iyj1epxev556m4/Plex-Theme-Web%20-%20Copy.png" width="500"/>
 </p>
 
+### ✨ Not available to download
+
 ## MyDramaList
 MyDramaList is a website for Asian Medias. Keep track of the shows and movies you've watched and find recommendations!
 
