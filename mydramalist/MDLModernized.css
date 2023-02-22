@@ -9,6 +9,7 @@ This will be updated as needed :)
 Feel free to integrate it to your themes, just make sure you're using mdl variables!
 */
 
+@import "https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap";
 
 body {
     /* font-family: 'Roboto', sans-serif; */
@@ -150,10 +151,10 @@ label.role {
     border: 2px solid var(--mdl-primary);
 }
 
-.post-list .post.highlight > .post-content {
+.post-list .post.highlight>.post-content {
     border: 3px solid var(--mdl-primary) !important;
     border-radius: 10px;
-  }
+}
 
 .feed-body .feed-social .story-like,
 .feed-body .feed-social .btn-cmts,
