@@ -1,0 +1,665 @@
+/*
+Modernized MyDramaList
+
+Made by Mio.
+https://dear-clouds.carrd.co
+
+Feel free to use to integrate it to your themes, just make sure you're using mdl variables!
+*/
+
+
+body {
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.app-body {
+    max-width: 1300px;
+    padding-top: 10px;
+}
+
+/* 
+@media (min-width: 1540px) {
+    .app-body {
+        max-width: 1300px;
+    }
+
+} */
+
+.form-control::placeholder {
+    opacity: .6;
+}
+
+.nav>li>a .nav-text {
+    font-weight: bold;
+}
+
+/* -------------------------------- Carousel -------------------------------- */
+.carousel-articles {
+    height: 350px;
+    border-radius: 0px;
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    clear: both;
+}
+
+.carousel-container .carousel-item {
+    height: 350px;
+}
+
+.carousel-container .carousel-item .cover {
+    background-size: cover;
+    background-blend-mode: lighten;
+    background-position: center;
+}
+
+[data-component="home-view"] .col-lg-8,
+[data-component="home-view"] .col-lg-4 {
+    margin-top: 350px !important;
+}
+
+/* ------------------------------- Comment section ------------------------------ */
+span.vip-tag,
+label.role {
+    border: 0;
+    padding: 4px 8px 4px 8px;
+    border-radius: 15px;
+}
+
+.post-list .threadline {
+    border-right: 4px solid;
+}
+
+.post-list>.post {
+    border-top: 1px solid var(--mdl-black);
+    margin: 10px -16px;
+}
+
+.post-list .post-content .post-header {
+    width: 100%;
+}
+
+.post-list .date {
+    float: right;
+    background: var(--mdl-background);
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 5px 8px 5px 8px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.post-box .permalink,
+.post-box .timeago {
+    background: var(--mdl-background);
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 5px 8px 5px 8px;
+    text-transform: uppercase;
+}
+
+.post-box::before {
+    font-family: "Font Awesome 5 Pro";
+    content: "\f0d9";
+    font-weight: 900;
+    margin-left: -15px;
+    margin-bottom: -30px;
+    font-size: 40px;
+    color: var(--mdl-box-background);
+}
+
+.post-box .box-header {
+    margin-top: -55px;
+}
+
+.discussion-breadcrumb {
+    background: var(--mdl-black);
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.discussion-header {
+    text-align: center;
+    padding: 20px 0px 10px 10px;
+}
+
+.user-display,
+.post-box .post__username {
+    font-size: 16px;
+}
+
+.user-display::before,
+.post-box .post__username>a::before {
+    font-family: "Font Awesome 5 Pro";
+    content: "\f101";
+    margin-right: 10px;
+    transition: 0.2s ease-in-out;
+}
+
+.user-display:hover::before,
+.post-box .post__username>a:hover::before {
+    margin-left: 10px;
+}
+
+.avatar img {
+    border: 2px solid var(--mdl-primary);
+}
+
+.post-list .post.highlight > .post-content {
+    border: 3px solid var(--mdl-primary) !important;
+    border-radius: 10px;
+  }
+
+.feed-body .feed-social .story-like,
+.feed-body .feed-social .btn-cmts,
+.feed-body .feed-attachment .feed-collage,
+#episode_calendar .cover-sm,
+.details-recommendations .rec-item>a,
+.grid-slider .film-cover,
+#edit-collection ul.list-group>.list-group-item,
+.slideout-panel,
+#recs-platform .film-cover,
+.mdl-leaderboard-aztop {
+    background-color: transparent;
+}
+
+.box-grid-section,
+.box-list-section,
+.btn.btn-default,
+.btn.white,
+.review .rating-overall,
+.mdl-synopsis-languages .list-item:active,
+.mdl-synopsis-languages .list-item.active,
+.mdl-synopsis-languages>li:active,
+.mdl-synopsis-languages>li.active,
+.mdl-synopsis-languages .list-item,
+.mdl-synopsis-languages>li,
+#mdl-lang,
+#episode_calendar .display-options>.el-button,
+#episode_calendar .el-button.filter.el-button--default,
+#episode_calendar .el-button.sort.el-button--default,
+.el-card,
+.carousel-container .carousel-item.double .content-wrapper:first-child,
+.btn-default,
+.el-textarea__inner,
+.tag-media .tag-media-wrapper,
+.el-input__inner,
+.media-tag-item,
+.feed-comments,
+.feed-comments .thread-post-form,
+.post-message .spoiler,
+.el-dropdown-menu,
+#cmtsapp .lang-switcher span.active,
+.el-popover,
+.btn.primary,
+.genre-tags>a,
+.style-default .list-statistics label,
+#dramalist .list-statistics label,
+.feed-body .feed-attachment.link,
+.feed-body .feed-attachment.reviews,
+.feed-body .feed-attachment.article,
+.feed-body .feed-attachment.embed,
+.qtip-default,
+.nav-feeds .nav-item,
+.form-control,
+.advanced-search .filter-box-adv .filter-select.active,
+.advanced-search .filter-box-adv .filter-select:hover,
+.multiselect__tags,
+.vue-slider-component .vue-slider-tooltip,
+#article .tags>.tag,
+.el-button.el-button--default,
+.mdl-input-tag-wrapper.read-only,
+.el-input-number.is-controls-right .el-input-number__decrease,
+.el-input-number__increase,
+.mdl-input-tag-wrapper,
+.edit-container .edit-cover>.no-cover,
+.el-button--success,
+.el-button--danger.is-plain.is-disabled,
+.el-button--danger.is-plain.is-disabled:active,
+.el-button--danger.is-plain.is-disabled:focus,
+.el-button--danger.is-plain.is-disabled:hover,
+.el-input-group__append,
+.el-input-group__prepend,
+.el-checkbox__input.is-checked .el-checkbox__inner,
+.el-checkbox__input.is-indeterminate .el-checkbox__inner,
+.block-list,
+.mdlw-container-MRx6E,
+#vip-plan .vip-features .media .pull-left .mdl-logo,
+#vip-plan .vip-features .media .pull-left i,
+.swiper-wrapper .film-cover img,
+.feed-spoiler,
+tags-items-modal,
+.tags-items-modal .tag-item,
+.tags-items-modal,
+#edit-collection .list-option,
+.mdl-dropdown .mdl-dropdown-content,
+.el-button--primary,
+.el-button,
+.el-button--danger.is-plain,
+.btn-manage-list.simple,
+.dropdown-menu {
+    border: none;
+}
+
+.group-manage-list>.btn,
+.box,
+#episode_calendar .display-options>.el-button,
+#episode_calendar .el-button.filter.el-button--default,
+#episode_calendar .el-button.sort.el-button--default,
+.btn-default,
+#cmtsapp .lang-switcher span.active,
+.style-default .list-statistics label,
+#dramalist .list-statistics label,
+.el-button.el-button--default,
+.btn.btn-default,
+.btn.white {
+    box-shadow: none;
+}
+
+.grid-reviews .author,
+.custom-list-preview .list-bars,
+.text-muted,
+h1.film-title,
+.box-header.light-b-dk,
+.show-tags .edit-tags,
+.el-dropdown,
+.el-dropdown-menu,
+#calendar-nav a:hover,
+.feed-body .feed-date,
+.film-popover h2>span,
+.film-popover .original-title {
+    opacity: 1;
+}
+
+/* ------------------------------ Custom Lists ------------------------------ */
+.custom-list-preview .content>a>.list-item,
+.custom-list-preview .content>ul>.list-item,
+.custom-list-preview .content>ul>li {
+    width: 90px;
+}
+
+
+a,
+.text-primary,
+.review .review-body .read-more>a,
+.mdl-synopsis-languages .list-item,
+.mdl-synopsis-languages>li,
+#episode_calendar .display-format,
+#episode_calendar .episode-card-large .stats i,
+.html_content_block a,
+.mdl-theme .fr-view a,
+.media-tag-title,
+.feed-body .feed-desc a,
+.feed-body .feed-status>a,
+#collection-lists .box-body a,
+.post-message a,
+.post-list .reply,
+.notifications-list .list-group-item .message a,
+.notifications-list .list-group-item .block a,
+.nav-notifications .list-group-item .message a,
+.nav-notifications .list-group-item .block a,
+.dropdown-header,
+.edit-container h5,
+.el-checkbox__input.is-checked+.el-checkbox__label,
+.mdlw-container-MRx6E a,
+#faq .content-body a,
+#vip-plan .features-header,
+#vip-plan .vip-features .media .pull-left .mdl-logo,
+#vip-plan .vip-features .media .pull-left i,
+#year-in-review .box-header h1,
+#year-in-review .box-header .stats .num,
+#year-in-review h3,
+#year-in-review .dramas-stats i.fa-arrow-right,
+.nav-notifications .menu-header-link:hover,
+#upcoming-episode .calendar,
+.btn.btn-trailer i,
+.btn.btn-watch-online i,
+.btn-link,
+.btn-link:focus,
+.btn-link:hover,
+.btn-link.tags-items-modal .tag-item .name,
+.tag-item.row.created .name,
+#top-contributors .stats .details div p,
+.carousel-articles .category-name {
+    transition: 0.5s ease-in-out;
+}
+
+/* ----------------------------- Reviews Section ---------------------------- */
+.col-film-rating .deep-orange {
+    font-weight: 600;
+}
+
+.review-tag,
+.success {
+    color: var(--mdl-background) !important;
+    border: none;
+    font-weight: bold;
+}
+
+.review-tag.completed {
+    background-color: var(--mdl-green) !important;
+}
+
+.review-tag.ongoing {
+    background-color: var(--mdl-chart-text-1) !important;
+}
+
+.review-tag.dropped {
+    background-color: var(--mdl-btn-danger-background) !important;
+}
+
+#calendar-nav .menu-item.exact-active,
+#calendar-nav .menu-item:hover,
+#calendar-nav .quarter.exact-active,
+#calendar-nav .quarter:hover,
+.post-listing .post-break {
+    border-bottom: 5px solid;
+}
+
+#episode_calendar .episode-card-large .genre,
+.btn-default,
+.nav-tabs,
+.advanced-search .filter-box-adv .filter-select,
+#article .tags>.tag,
+.style-default .table thead th>a,
+#dramalist .table thead th>a,
+#upcoming-episode .airing-in .release-episode,
+.article-trending .box-title,
+#episode_calendar .top-append .airing-now,
+#episode_calendar .top-append .airing-next,
+h1,
+h2,
+h3,
+.review .review-spoiler {
+    font-family: 'Open Sans', sans-serif;
+    /* text-transform: uppercase; */
+    font-weight: 100;
+}
+
+.carousel-container .carousel-item {
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+
+.grid-reviews .review-score::after,
+.table>thead>tr>th {
+    border-color: transparent transparent var(--mdl-black) var(--mdl-black);
+}
+
+.html_content_block blockquote {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.nav>li>a .nav-text,
+#year-in-review .box-header h1,
+#year-in-review h3,
+#year-in-review .hero-card h2,
+.box-navbar h1,
+#upcoming-episode .countdown {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.light img.cover,
+.article-trending img {
+    filter: grayscale(1);
+    transition: 0.5s ease-in-out;
+}
+
+.light img.cover:hover,
+.article-trending img:hover {
+    filter: grayscale(0);
+    transition: 0.5s ease-in-out;
+}
+
+
+.article-trending img {
+    opacity: 0.8;
+    width: 100%;
+    height: auto;
+}
+
+.article-trending .box-title {
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0px 0px 10px black;
+    width: 100%;
+    color: white;
+    font-weight: 600;
+    padding: 5px;
+}
+
+#calendar-nav {
+    background-image: url('https://dl.dropbox.com/s/kz3nwhvdfyiofvw/pattern.png');
+}
+
+.latest-episodes .film-episode,
+.grid-slider .film-title,
+.grid-reviews .author,
+.swiper-wrapper .text-muted,
+.grid-slider .people-name,
+.article-trending .box-title,
+#trailers .text-ellipsis,
+.episodes {
+    text-align: center;
+}
+
+#article .html_content_block,
+.post-list .post-message,
+.show-synopsis,
+.feed-desc {
+    text-align: justify;
+}
+
+.film-cover img,
+.list-left img,
+img.mdl-rounded,
+#episode_calendar .img-responsive,
+.details-recommendations img,
+.episode img,
+.recs-box img {
+    border-radius: 5px;
+    border: 6px solid var(--mdl-background);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.film-cover img:hover,
+img.mdl-rounded:hover,
+#episode_calendar .img-responsive:hover,
+.details-recommendations img:hover,
+.episode img:hover,
+.recs-box img:hover,
+.list-left img:hover {
+    border-radius: 5px;
+    -webkit-filter: grayscale(100%) blur(1px);
+    filter: grayscale(100%) blur(1px);
+}
+
+.box-list-section .list-body {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+article {
+    position: relative;
+}
+
+.table>tbody>tr>td.thread--discussion,
+.table>tbody>tr>td {
+    vertical-align: middle;
+}
+
+
+/* ---------------------------------- Tags ---------------------------------- */
+.show-tags .text-primary {
+    background-color: var(--mdl-tag-active-background);
+    color: var(--mdl-black);
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 2px 5px;
+    line-height: 27px;
+}
+
+.show-tags .text-primary:before {
+    content: '#';
+}
+
+.show-tags .text-primary:hover {
+    background-color: var(--mdl-black) !important;
+    letter-spacing: 1px;
+}
+
+
+#trailers .text-ellipsis {
+    margin-top: 5px;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+
+.box-navbar>ul .nav-item:hover {
+    border-bottom: 1px solid var(--mdl-primary);
+}
+
+.custom-list-preview .content>a,
+.custom-list-preview .content>ul {
+    height: auto;
+}
+
+.custom-list-preview .content>a>.list-item,
+.custom-list-preview .content>a>li,
+.custom-list-preview .content>ul>.list-item,
+.custom-list-preview .content>ul>li {
+    height: auto;
+}
+
+/* -------------------------- View List Button on profile -------------------------- */
+.group-manage-list>.btn,
+.box-user-profile .btn-default {
+    background: linear-gradient(270deg, var(--mdl-primary), var(--mdl-tag-active-background), var(--mdl-primary), var(--mdl-tag-active-background));
+    background-size: 400% 400%;
+    animation: gradient-bg 5s ease infinite;
+    color: var(--mdl-black) !important;
+}
+
+@keyframes gradient-bg {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.custom-list-preview .title-primary.bottom,
+.custom-list-preview .title.bottom {
+    padding-top: 15px;
+}
+
+/* ---------------------------- Buttons & Tables ---------------------------- */
+.style-default .table thead th>a {
+    font-weight: bold;
+    text-shadow: none;
+}
+
+/* ------------------------------- MyDramaList ------------------------------ */
+
+h1.mdl-style-header::before {
+    font-family: "Font Awesome 5 Pro";
+    content: "\f101";
+    margin-right: 10px;
+    transition: 0.2s ease-in-out;
+}
+
+h1.mdl-style-header:hover::before {
+    margin-left: 10px;
+}
+
+.html_content_block pre,
+.html_content_block .code {
+    border: none !important;
+}
+
+.featured-list {
+    max-height: 400px;
+}
+
+.featured-list .list-info {
+    text-shadow: 0px 0px 5px black;
+}
+
+.custom-list-preview.large .content>a>.list-item,
+.custom-list-preview.large .content>a>li,
+.custom-list-preview.large .content>ul>.list-item,
+.custom-list-preview.large .content>ul>li {
+    width: 100px;
+    height: 135px;
+}
+
+
+/* ------------------------------- Better MDL ------------------------------- */
+
+.card {
+    background: var(--mdl-background);
+    border: none;
+}
+
+.card-footer {
+    background: var(--mantle);
+    border: none;
+    border-top: 1px solid var(--text);
+}
+
+.label-primary {
+    background: var(--mdl-primary);
+    color: var(--mdl-black);
+}
+
+.label-secondary {
+    background: var(--mantle);
+    color: var(--mdl-primary) !important;
+}
+
+/* Useless spaces */
+div[class*='w2305'],
+div[class^='w2305'] {
+    padding: 0px !important;
+}
+
+/* Remove ads. Please try to keep the ads or donate to support them if you can! */
+div[class*='spnsr-wrapper-'],
+div[class^='spnsr-wrapper-'],
+div[class*='spnsr-top-'],
+div[class^='spnsr-top-'],
+div[class*='spnsr_right'],
+div[class^='spnsr_right'],
+div[class*='w2143'],
+div[class*='_23'],
+div[class^='_23'],
+div[class*='_right_'],
+.app-body div[class*='23'],
+.app-body div[class^='23'] {
+    visibility: hidden !important;
+    display: none !important;
+    padding: 0px !important;
+    height: 0px !important;
+    margin: 0 !important;
+}
+
+.m-t {
+    margin-top: 0 !important;
+}
