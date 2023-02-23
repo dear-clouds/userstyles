@@ -28,6 +28,7 @@ This is not a theme but an alternative version of the website, trying to make it
 You can easily import this in your own theme with this link: https://rawcdn.githack.com/dear-clouds/userstyles/02d91afe20440af6f368cf5c398fcd9163744001/mydramalist/MDLModernized.css
 
 <hr>
+
 ### 01. MDL Darker Version
 <p align="center">
   <img src="https://dl.dropbox.com/s/l9gvd7z4jfdjozf/Presentation.jpg" width="500"/>
