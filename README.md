@@ -25,7 +25,11 @@ MyDramaList is a website for Asian Medias. Keep track of the shows and movies yo
 
 This is not a theme but an alternative version of the website, trying to make it more modern & friendly. It will be directly imported into my project [Better MDL](https://dear-clouds.carrd.co/#better-mdl).
 
-You can easily import this in your own theme with this link: https://rawcdn.githack.com/dear-clouds/userstyles/02d91afe20440af6f368cf5c398fcd9163744001/mydramalist/MDLModernized.css
+You can easily import this in your own theme like this
+
+```css
+@import "https://rawcdn.githack.com/dear-clouds/userstyles/02d91afe20440af6f368cf5c398fcd9163744001/mydramalist/MDLModernized.css";
+```
 
 <hr>
 
