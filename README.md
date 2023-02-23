@@ -21,16 +21,19 @@ Plex is a global streaming media service and a client–server media player plat
 ## MyDramaList
 MyDramaList is a website for Asian Medias. Keep track of the shows and movies you've watched and find recommendations!
 
+### 🤍 Modernized MDL
+
+This is not a theme but an alternative version of the website, trying to make it more modern & friendly. It will be directly imported into my project [Better MDL](https://dear-clouds.carrd.co/#better-mdl).
+
+You can easily import this in your own theme with this link: https://rawcdn.githack.com/dear-clouds/userstyles/02d91afe20440af6f368cf5c398fcd9163744001/mydramalist/MDLModernized.css
+
+<hr>
 ### 01. MDL Darker Version
 <p align="center">
   <img src="https://dl.dropbox.com/s/l9gvd7z4jfdjozf/Presentation.jpg" width="500"/>
 </p>
 
-- Darker theme
-- Larger container
-- Animations to dynamize the website
-- New fonts + custom hashtags view
-- Articles list: images same size + filters
+This was the base for Modernized.css but it hasn't been updated since then.
 
 ### [✨ Install](https://dl.dropbox.com/s/4pztwg6b03jjswg/MDLDarkMode.user.css)
 
@@ -45,3 +48,16 @@ You must be a [VIP](https://mydramalist.com/account/styles/community) to install
 - Better result with my "Darker Version" theme
 
 ### ✨ Install: [Search Vaporwave](https://mydramalist.com/account/styles/community)
+
+
+
+### 03. Catppuccin
+<p align="center">
+  <img src="https://github.com/dear-clouds/mydramalist/raw/main/assets/Modernized-Preview.webp" width="500"/>
+</p>
+
+Using the soothing pastel theme Catppuccin which contains 5 variations (1 Light Mode & 4 Dark Modes) with customization of the main color. 
+This is my most recent theme which can be used as a template to see how to import Modernize.css.
+
+### [✨ Install](https://github.com/dear-clouds/mydramalist)
+
