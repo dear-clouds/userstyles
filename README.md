@@ -8,7 +8,7 @@ You must install [Stylus](https://github.com/openstyles/stylus) before trying to
 Styles can be updated automatically via the add-on.
 
 
-## Plex Themes
+# Plex
 Plex is a global streaming media service and a client–server media player platform, made by Plex, Inc. The Plex Media Server organizes video, audio, and photos from a user's collections and from online services, and streams it to the players.
 
 ### 01. Modern
@@ -18,10 +18,10 @@ Plex is a global streaming media service and a client–server media player plat
 
 ### ✨ Not available to download
 
-## MyDramaList
+# MyDramaList
 MyDramaList is a website for Asian Medias. Keep track of the shows and movies you've watched and find recommendations!
 
-### 🤍 Modernized MDL
+## 🤍 Modernized MDL
 
 This is not a theme but an alternative version of the website, trying to make it more modern & friendly. It will be directly imported into my project [Better MDL](https://dear-clouds.carrd.co/#better-mdl).
 
@@ -38,7 +38,7 @@ You can easily import this in your own theme like this
   <img src="https://dl.dropbox.com/s/l9gvd7z4jfdjozf/Presentation.jpg" width="500"/>
 </p>
 
-This was the base for Modernized.css but it hasn't been updated since then.
+This was the base for Modernized.css but it hasn't been updated since then and is honestly awful to read. I'll rewrite it after releasing [Better MDL](https://dear-clouds.carrd.co/#better-mdl).
 
 ### [✨ Install](https://dl.dropbox.com/s/4pztwg6b03jjswg/MDLDarkMode.user.css)
 
