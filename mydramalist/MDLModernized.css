@@ -356,8 +356,7 @@ a,
 #calendar-nav .menu-item.exact-active,
 #calendar-nav .menu-item:hover,
 #calendar-nav .quarter.exact-active,
-#calendar-nav .quarter:hover,
-.post-listing .post-break {
+#calendar-nav .quarter:hover {
     border-bottom: 5px solid;
 }
 
