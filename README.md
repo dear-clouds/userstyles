@@ -28,7 +28,7 @@ This is not a theme but an alternative version of the website, trying to make it
 You can easily import this in your own theme like this
 
 ```css
-@import "https://rawcdn.githack.com/dear-clouds/userstyles/02d91afe20440af6f368cf5c398fcd9163744001/mydramalist/MDLModernized.css";
+@import "https://rawcdn.githack.com/dear-clouds/userstyles/b480966f7de1111223e1cae35faafde4cf0400b1/mydramalist/MDLModernized.css";
 ```
 
 <hr>
