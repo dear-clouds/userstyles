@@ -23,7 +23,7 @@ MyDramaList is a website for Asian Medias. Keep track of the shows and movies yo
 
 ## 🤍 Modernized MDL
 
-This is not a theme but an alternative version of the website, trying to make it more modern & friendly. It will be directly imported into my project [Better MDL](https://dear-clouds.carrd.co/#better-mdl).
+This is not a theme but an alternative version of the website, trying to make it more modern & friendly. It will be directly imported in all my MDL Themes.
 
 You can easily import this in your own theme like this
 
