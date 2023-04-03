@@ -329,6 +329,15 @@ a,
     transition: 0.5s ease-in-out;
 }
 
+/* --------------------------------- Casting -------------------------------- */
+
+.title-container .credits .credits-left a,
+.title-container .credits .credits-left img {
+    width: auto;
+    height: 120px;
+    display: block;
+}
+
 /* ----------------------------- Reviews Section ---------------------------- */
 .col-film-rating .deep-orange {
     font-weight: 600;
