@@ -660,7 +660,9 @@ div[class^='spnsr_right'],
 div[class*='w2143'],
 div[class*='_23'],
 div[class^='_23'],
-div[class*='_right_'] {
+div[class*='_right_'],
+.app-body > div:first-child
+   {
     visibility: hidden !important;
     display: none !important;
     padding: 0px !important;
