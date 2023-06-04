@@ -6,7 +6,7 @@ https://dear-clouds.carrd.co
 
 This will be updated as needed :)
 
-Feel free to integrate it to your themes, just make sure you're using mdl variables!
+Feel free to integrate it in your themes, just make sure you're using mdl variables!
 Import via this link for Production: https://cdn.jsdelivr.net/gh/dear-clouds/userstyles@master/mydramalist/MDLModernized.css
 */
 
@@ -661,7 +661,7 @@ div[class*='w2143'],
 div[class*='_23'],
 div[class^='_23'],
 div[class*='_right_'],
-.app-body > div:first-child
+.app-body div:first-child
    {
     visibility: hidden !important;
     display: none !important;
