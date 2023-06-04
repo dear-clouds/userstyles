@@ -658,10 +658,10 @@ div[class^='spnsr-top-'],
 div[class*='spnsr_right'],
 div[class^='spnsr_right'],
 div[class*='w2143'],
+div[class*='2322'],
 div[class*='_23'],
 div[class^='_23'],
-div[class*='_right_'],
-.app-body div:first-child
+div[class*='_right_']
    {
     visibility: hidden !important;
     display: none !important;
