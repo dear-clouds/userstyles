@@ -651,16 +651,19 @@ div[class^='w2305'] {
 }
 
 /* Remove ads. Please try to keep the ads or donate to support them if you can! */
-div[class*='spnsr-wrapper-'],
-div[class^='spnsr-wrapper-'],
-div[class*='spnsr-top-'],
-div[class^='spnsr-top-'],
-div[class*='spnsr_right'],
-div[class^='spnsr_right'],
-div[class*='w2143'],
-div[class*='2322'],
-div[class*='_23'],
-div[class^='_23'],
+div[class*='spnsr-wrapper-'], div[class^='spnsr-wrapper-'],
+div[class*='spnsr-top-'], div[class^='spnsr-top-'],
+div[class*='spnsr_right'], div[class^='spnsr_right'],
+div[class*='w2323'], div[class^='w2323'],
+div[class*='fjmrw'], div[class^='fjmrw'],
+div[class*='qrxtw'], div[class^='qrxtw'],
+div[class*='lmcdw'], div[class^='lmcdw'],
+div[class*='trxcw'], div[class^='trxcw'],
+div[class*='zrdmw'], div[class^='zrdmw'],
+div[class*='rmsjw'], div[class^='rmsjw'],
+div[class*='mrslw'], div[class^='mrslw'],
+div[class*='mrslw'], div[class^='mrslw'],
+div[class*='_23'], div[class^='_23'],
 div[class*='_right_']
    {
     visibility: hidden !important;
