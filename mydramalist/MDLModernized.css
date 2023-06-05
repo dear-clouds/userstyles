@@ -664,7 +664,8 @@ div[class*='rmsjw'], div[class^='rmsjw'],
 div[class*='mrslw'], div[class^='mrslw'],
 div[class*='mrslw'], div[class^='mrslw'],
 div[class*='_23'], div[class^='_23'],
-div[class*='_right_']
+div[class*='_right_'],
+.app-body > div:nth-of-type(2)
    {
     visibility: hidden !important;
     display: none !important;
